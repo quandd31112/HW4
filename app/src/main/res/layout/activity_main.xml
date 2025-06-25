@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -33,7 +34,7 @@
                     android:layout_height="100dp"/>
 
                 <TextView
-                    android:text="The Countries"
+                    android:text="@string/the_countries"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp"  android:layout_height="match_parent"  android:layout_width="match_parent"/>
             </LinearLayout>
@@ -61,7 +62,7 @@
                     android:layout_height="100dp"/>
 
                 <TextView
-                    android:text="The Leaders"
+                    android:text="@string/the_leaders"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp" android:layout_height="match_parent"  android:layout_width="match_parent"/>
             </LinearLayout>
@@ -89,7 +90,7 @@
                     android:layout_height="100dp"/>
 
                 <TextView
-                    android:text="The Museums"
+                    android:text="@string/the_museums"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp" android:layout_height="match_parent"  android:layout_width="match_parent"/>
             </LinearLayout>
@@ -109,15 +110,16 @@
                 android:padding="8dp"
                 android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:src="@drawable/wonders"
+                    android:contentDescription="@string/todo" android:src="@drawable/wonders"
                     android:layout_width="100dp"
                     android:layout_height="100dp"/>
 
                 <TextView
-                    android:text="Seven Wonders of The World"
+                    android:text="@string/seven_wonders_of_the_world"
                     android:textSize="16sp"
                     android:layout_marginTop="8dp" android:layout_height="match_parent"  android:layout_width="match_parent" />
             </LinearLayout>

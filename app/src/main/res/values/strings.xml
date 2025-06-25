@@ -2,4 +2,9 @@
     <string name="app_name">InfoBook</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_countries">The Countries</string>
+    <string name="the_leaders">The Leaders</string>
+    <string name="the_museums">The Museums</string>
+    <string name="seven_wonders_of_the_world">Seven Wonders of The World</string>
+    <string name="todo">TODO</string>
 </resources>
